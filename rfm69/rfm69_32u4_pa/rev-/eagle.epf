@@ -388,7 +388,7 @@ UsedLibrary="/home/zleffke/github/zleffke/eaglecad/lib/kj4qlp.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="198 98 1397 697"
+Loc="0 0 1199 599"
 State=2
 Number=0
 
