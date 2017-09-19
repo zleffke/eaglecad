@@ -2488,8 +2488,8 @@ Added bigger pads to the TO-92 package</description>
 <pad name="P$3" x="66.675" y="45.24375" drill="3.048" diameter="5.334"/>
 <pad name="P$4" x="66.675" y="24.60625" drill="3.048" diameter="5.334"/>
 <text x="7.62" y="0" size="1.27" layer="21">Decotec Enclosure, Part #:102040-002 Rev. B</text>
-<rectangle x1="69.85" y1="55.959375" x2="73.025" y2="67.071875" layer="51"/>
-<rectangle x1="69.85" y1="2.778125" x2="73.025" y2="13.890625" layer="51"/>
+<rectangle x1="69.85" y1="53.721" x2="73.025" y2="64.389" layer="51"/>
+<rectangle x1="69.85" y1="5.461" x2="73.025" y2="16.129" layer="51"/>
 <circle x="21.43125" y="8.73125" radius="2.5797" width="0.127" layer="51"/>
 <text x="21.43125" y="8.73125" size="2.54" layer="51" align="center">H</text>
 <circle x="12.7" y="57.94375" radius="2.5797" width="0.127" layer="51"/>
@@ -2504,9 +2504,9 @@ Added bigger pads to the TO-92 package</description>
 <text x="-5.08" y="44.834175" size="2.54" layer="51" align="center-right">8-32</text>
 <text x="-5.08" y="24.514175" size="2.54" layer="51" align="center-right">8-32</text>
 <text x="-5.08" y="11.814175" size="2.54" layer="51" align="center-right">4-40</text>
-<text x="73.66" y="52.454175" size="2.54" layer="51" align="center-left">7/16 in
+<text x="74.93" y="58.039" size="2.54" layer="51" align="center-left">7/16 in
 BNC Panel</text>
-<text x="74.93" y="16.894175" size="2.54" layer="51" align="center-left">7/16 in
+<text x="74.93" y="10.795" size="2.54" layer="51" align="center-left">7/16 in
 BNC Panel</text>
 <wire x1="-3.175" y1="-3.175" x2="-3.175" y2="73.025" width="0.127" layer="51"/>
 <wire x1="-3.175" y1="73.025" x2="73.025" y2="73.025" width="0.127" layer="51"/>
