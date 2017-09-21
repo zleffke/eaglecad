@@ -13012,7 +13012,7 @@ LEONARDO BOOTLOADER</text>
 <instance part="8" gate="G$1" x="208.28" y="101.6" rot="R270"/>
 <instance part="TP-6" gate="G$1" x="208.28" y="96.52" rot="R270"/>
 <instance part="TP-12" gate="G$1" x="208.28" y="91.44" rot="R270"/>
-<instance part="TP-4" gate="G$1" x="208.28" y="86.36" rot="R270"/>
+<instance part="TP-4" gate="G$1" x="254" y="93.98" rot="R270"/>
 <instance part="TP10" gate="G$1" x="66.04" y="10.16"/>
 <instance part="TP11" gate="G$1" x="45.72" y="10.16"/>
 <instance part="TP12" gate="G$1" x="33.02" y="15.24" rot="R180"/>
@@ -13662,14 +13662,14 @@ LEONARDO BOOTLOADER</text>
 </net>
 <net name="9" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
-<wire x1="254" y1="167.64" x2="271.78" y2="167.64" width="0.1524" layer="91"/>
-<label x="256.54" y="167.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="9" gate="G$1" pin="TP"/>
 <wire x1="210.82" y1="106.68" x2="213.36" y2="106.68" width="0.1524" layer="91"/>
 <label x="210.82" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB5(OC1A/ADC12/!OC4B)"/>
+<wire x1="254" y1="167.64" x2="271.78" y2="167.64" width="0.1524" layer="91"/>
+<label x="256.54" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3_RF_CS" class="0">
@@ -13747,18 +13747,6 @@ LEONARDO BOOTLOADER</text>
 <pinref part="U$3" gate="G$1" pin="CS"/>
 <wire x1="86.36" y1="187.96" x2="76.2" y2="187.96" width="0.1524" layer="91"/>
 <label x="76.2" y="187.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="4" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
-<wire x1="254" y1="142.24" x2="271.78" y2="142.24" width="0.1524" layer="91"/>
-<label x="256.54" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TP-4" gate="G$1" pin="TP"/>
-<wire x1="210.82" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
-<label x="210.82" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10" class="0">
@@ -14197,30 +14185,6 @@ LEONARDO BOOTLOADER</text>
 <pinref part="VR2" gate="G$1" pin="EN"/>
 </segment>
 </net>
-<net name="22_TXRX_PTT" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PD5(XCK/CTS)"/>
-<wire x1="254" y1="144.78" x2="271.78" y2="144.78" width="0.1524" layer="91"/>
-<label x="256.54" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="A" pin="I"/>
-<wire x1="220.98" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
-<label x="203.2" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="C" pin="I"/>
-<wire x1="43.18" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="27.94" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PTT" gate="G$1" pin="TP"/>
-<wire x1="248.92" y1="99.06" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
-<label x="251.46" y="99.06" size="1.778" layer="95"/>
-<pinref part="PTT2" gate="G$1" pin="TP"/>
-<wire x1="248.92" y1="93.98" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="8_SD_CD" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB0(SS)"/>
@@ -14445,6 +14409,42 @@ LEONARDO BOOTLOADER</text>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="PTT-LO" gate="G$1" pin="A"/>
 <wire x1="137.16" y1="152.4" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="NA" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PD5(XCK/CTS)"/>
+<wire x1="254" y1="144.78" x2="271.78" y2="144.78" width="0.1524" layer="91"/>
+<label x="256.54" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="4_TXRX_PTT" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
+<wire x1="254" y1="142.24" x2="271.78" y2="142.24" width="0.1524" layer="91"/>
+<label x="256.54" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PTT" gate="G$1" pin="TP"/>
+<wire x1="248.92" y1="99.06" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
+<label x="251.46" y="99.06" size="1.778" layer="95"/>
+<pinref part="PTT2" gate="G$1" pin="TP"/>
+<wire x1="248.92" y1="93.98" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TP-4" gate="G$1" pin="TP"/>
+<wire x1="256.54" y1="93.98" x2="264.16" y2="93.98" width="0.1524" layer="91"/>
+<label x="256.54" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="C" pin="I"/>
+<wire x1="43.18" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="27.94" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="A" pin="I"/>
+<wire x1="220.98" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
+<label x="203.2" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
